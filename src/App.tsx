@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react"
+import { useState } from "react"
 import  {menuItems}  from "./data/db"
 import MenuItem from "./components/MenuItem"
 import useOrder from "./hooks/useOrder"
@@ -9,9 +9,6 @@ function App() {
 
   const { addItem } = useOrder()
 
-  // useEffect(() => {
-  //   setData(menuItems)
-  // },[])
 
   return (
     <>
